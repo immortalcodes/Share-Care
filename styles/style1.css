@@ -1,6 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+
+
+
 * {
     background-color: #0E0B16;
     color: #E7DFDD;
+    font-family: 'Montserrat', sans-serif;
+    
+
+}
 
 
+.title{
+    height: 2rem;
+    text-align: center;
+    background-color: #A239CA;
+    margin: 0%;
+    padding-bottom: 30px;
+    
+}
+nav{
+    margin-left: 77%;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    padding-left: 2rem;
+    list-style-type: none;
 }
