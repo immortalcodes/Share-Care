@@ -21,4 +21,7 @@ def home():
 
 @app.route("/")
 def display_details():
-    return render_template("index.html", entries = details)
+    return render_template("explore.html", entries = details)
+@app.route("/about")
+def display_aboutus():
+    return render_template("about.html")
