@@ -31,13 +31,27 @@ nav ul li{
     padding-left: 2rem;
     list-style-type: none;
 }
-
+nav ul li a {
+ text-decoration: none;
+}
+nav ul li a:hover {
+    color:crimson;
+    font-weight: bold;
+    transition-duration: 0.25s;
+    
+   }
+#imge {
+    height: 400px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
 .zui-table {
     border: solid 1px #DDEEEE;
     border-collapse: collapse;
     border-spacing: 0;
     font: normal 13px Arial, sans-serif;
-    height: 50rem;
+    height: 20rem;
     width: 80rem;
     font-size: 1rem;
     border-radius: 20rem;
