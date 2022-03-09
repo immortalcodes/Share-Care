@@ -28,8 +28,26 @@
     </nav>    
     </div>
     <h2>DETAILS:</h2>
-    {% for entry in entries %}
-      {{ entry}}
-    {% endfor %}
+  <table class="zui-table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Room Number</th>
+            <th>Phone Number</th>
+            <th>Details</th>
+        </tr>
+    </thead>
+    <tbody>
+      {% for row in entries %}
+      <tr>
+        {% for cell in row %}
+          <td>{{cell}}</td>
+        {% endfor %}
+      </tr>
+      {% endfor %}
+      </tbody>
+  </table>
+    
+  
 </body>
 </html>
