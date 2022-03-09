@@ -8,3 +8,6 @@ The team members with their roll no. and usernames are:-
 
 Install the necessary packages using :-
 pip install psycopg2-binary
+
+
+Also flask should be installed.
