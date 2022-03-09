@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat&display=swap" rel="stylesheet">
+
+    <title>SHARE&CARE</title>
+</head>
+<body>
+    <div class="upperPanel">
+    <section class="title" >
+      <p class="title name" style="font-size: 3rem; font-family: 'Anton', sans-serif;">SHARE&CARE</p><p class="title">A project by Group - Mighty Maniacs</p>
+    </section>
+    <br>
+    <br>
+    <br>
+
+    <nav>
+        <ul>
+            <li><a>Explore</a></li>
+            <li><a href="http://127.0.0.1:5000/form">Add Item</a></li>
+            <li><a href="http://127.0.0.1:5000/about">About Us</a></li>
+    </nav>    
+    </div>
+    <h2>DETAILS:</h2>
+  <table class="zui-table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Room Number</th>
+            <th>Phone Number</th>
+            <th>Details</th>
+        </tr>
+    </thead>
+    <tbody>
+      {% for row in entries %}
+      <tr>
+        {% for cell in row %}
+          <td>{{cell}}</td>
+        {% endfor %}
+      </tr>
+      {% endfor %}
+      </tbody>
+  </table>
+    
+  
+</body>
+</html>
