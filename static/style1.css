@@ -37,11 +37,17 @@ nav ul li{
     border-collapse: collapse;
     border-spacing: 0;
     font: normal 13px Arial, sans-serif;
+    height: 50rem;
+    width: 80rem;
+    font-size: 1rem;
+    border-radius: 20rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 .zui-table thead th {
-    background-color: #DDEFEF;
+    background-color: #4717f6;
     border: solid 1px #DDEEEE;
-    color: #336B6B;
+    
     padding: 10px;
     text-align: left;
     
@@ -51,4 +57,15 @@ nav ul li{
     color: whitesmoke;
     padding: 10px;
     
+}
+#brief{
+    padding: 20px;
+    margin: 40px;
+}
+#heading2{
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 1400;
+    text-align: center;
+
 }
