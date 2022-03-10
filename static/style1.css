@@ -41,10 +41,8 @@ nav ul li a:hover {
     
    }
 #imge {
-    height: 400px;
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
+    height: 500px;
+    width: 100%;
 }
 .zui-table {
     border: solid 1px #DDEEEE;
