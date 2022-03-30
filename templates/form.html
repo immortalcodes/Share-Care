@@ -5,12 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+        </style>
     <title>Document</title>
 </head>
 <style>
     .heading {
-        color: #337088;
-        font-size: 40px;
+        font-size: 3rem; 
+        font-family: 'Anton', sans-serif;
+        color: #A239CA;
     }
 .heading {
             text-align: center;
@@ -40,7 +44,8 @@
                 <input name="details" placeholder="Details" type="text" tabindex="5" required></input>
             </fieldset>
             <fieldset>
-                <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                <button name="submit" type="submit" id="contact-submit" data-submit="...Sending" style="color: white;">Submit</button>
+                <a href="http://127.0.0.1:5000/">Back</a>
             </fieldset>
         </form>
     </div>
@@ -60,12 +65,12 @@
         }
         
         body {
-            font-family: "Roboto", Helvetica, Arial, sans-serif;
+            font-family: 'Montserrat', sans-serif;
             font-weight: 100;
             font-size: 12px;
             line-height: 30px;
             color: #777;
-            background: #4CAF50;
+            background: #0E0B16;
         }
         
         .container {
@@ -146,7 +151,7 @@
             cursor: pointer;
             width: 100%;
             border: none;
-            background: #4CAF50;
+            background: #A239CA;
             color: #FFF;
             margin: 0 0 5px;
             padding: 10px;
@@ -154,7 +159,7 @@
         }
         
         #contact button[type="submit"]:hover {
-            background: #43A047;
+            background: #7a075f;
             -webkit-transition: background 0.3s ease-in-out;
             -moz-transition: background 0.3s ease-in-out;
             transition: background-color 0.3s ease-in-out;
